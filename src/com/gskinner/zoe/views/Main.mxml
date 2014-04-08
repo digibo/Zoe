@@ -1231,7 +1231,7 @@ OTHER DEALINGS IN THE SOFTWARE.
 					<s:Button label="Update Bounds" styleName="simpleButton" enabled="{!variableFrameDimensions.selected}"  click="findBounds()" />
 				</s:VGroup>
 				
-				<s:NumericStepper id="scaleValue" width="50" height="20" minimum="0.25" maximum="10" value="1" stepSize="0.25" change="handleScaleChange()" />
+				<s:NumericStepper id="scaleValue" width="50" height="20" minimum="0.10" maximum="10" value="1" stepSize="0.01" change="handleScaleChange()" />
 				<s:Button id="scaleHelpBtn" styleName="helpButton" useHandCursor="false" buttonMode="false" />
 				
 				<s:VGroup width="100%">
